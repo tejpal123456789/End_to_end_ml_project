@@ -1,4 +1,5 @@
 from typing import List
+from src.logger import logging
 def get_requirements(filepath:str)->List[str]:
     '''
     This function will return the list of requirements
